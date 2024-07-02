@@ -1,0 +1,3 @@
+Server code inspired by https://www.youtube.com/@dhij, I designed the dockers, middleware...
+
+Flutter made with my own hands
