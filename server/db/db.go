@@ -10,7 +10,7 @@ type Database struct {
 }
 
 func NewDatabase() (*Database, error) {
-	db, err := sql.Open("postgres", "postgres://postgres:postgres@localhost:5432/flutter_golang_tchat_db?sslmode=disable")
+	db, err := sql.Open("postgres", "postgres://postgres:postgres@postgres:5432/flutter_golang_tchat_db?sslmode=disable")
 	if err != nil {
 		return nil, err
 	}
